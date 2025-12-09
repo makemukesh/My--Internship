@@ -36,7 +36,7 @@ class FAQAccordion {
       btn.addEventListener('mouseleave', (e) => this.hidePreview(item));
     });
 
-    // Setup search functionality if on FAQ page
+    
     if (this.searchInput) {
       this.setupSearch();
     }
@@ -241,7 +241,7 @@ class FAQAccordion {
   }
 
   setupAnalytics() {
-    // Optional: Setup basic analytics tracking
+    
     if (!window.faqAnalytics) {
       window.faqAnalytics = {
         openCounts: {},
